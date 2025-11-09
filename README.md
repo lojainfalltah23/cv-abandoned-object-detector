@@ -31,9 +31,7 @@ The system works in two phases:
 - Converts frames to grayscale and applies Gaussian blur to remove noise.
 - Detects objects using:
   - `cv2.absdiff`
-  - `cv2.Canny`
-  - Morphological operations
-  - Contour detection
+  - `cv2.Canny
 - Draws bounding boxes on abandoned objects and displays timestamp.
 ## Sample Output
 
